@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* selector */
+h1 { color:#003CFF;
+text-align:center }
+h2 { color:#FF0004 }
+img { border:15px solid#000000 }
+
+/* contextual  */ 
+td ul li { list-style-type: square }
+table table tr td { text-align: center }
+table tr td td td { width: 50%; text-align: left } /* not excludes it :D */ 
+
+/* classes */
+.arth { background:#00FF00 }
+.color { background:#FFFF99 }
+.cs { background:#FF00FF }
+.cs2 { background:#00FFFF }
+.cs3 { background:#FF9600 }
+.mscs { background:#99FF33 }
+.disc { list-style:disc }
+.square { list-style:square }
+.circle { list-style:circle }
+.upper { list-style:upper-alpha }
+.lower { list-style:lower-alpha }
+a.specialeffects:hover { color:#FF0004 }
+
+/* id */
+#lunch {background:#CC00FF }
+#movie {color:#00FF34; font-family:verdana italic}
+#hobby {color:#FFCE00; font-family:georgia}
+#website {color:#0074FF; font-family:Impact}

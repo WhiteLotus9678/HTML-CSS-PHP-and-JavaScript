@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* selector */
+body {
+background:#A7FFC1;
+}
+
+/* classes */
+
+.reHeight {
+height:20%;
+display:block; /*centers the image*/
+margin:0 auto;
+}
+.checkTable {
+border-width:1px;
+border-style:inset;
+}
+.centerText {
+text-align:center
+}
+.centerSubtitle {
+text-align:center;
+font-size: 20px
+}
+.centerContent {
+margin-left: auto; /*centers any content*/
+margin-right: auto; 
+}
+.centerBuyTableContent {
+margin-left: auto; /*centers any content*/
+margin-right: auto;
+border:#000000
+}
+/* border="1" */
+.topText{
+vertical-align:top
+}
+.boldlist p {
+font-weight:bold;
+font-size:14px;
+}
+.boldlist p div {
+font-weight:normal;
+}
+.rainbowBlink {
+    animation-duration: 0.5s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+	  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

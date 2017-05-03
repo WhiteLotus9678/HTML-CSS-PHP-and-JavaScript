@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Assignment 10</title>
+
+<script>
+function myFunction1() {
+    document.getElementById("demo").innerHTML = "This is a paragraph. This is a sentence. He says, 'Now this is a quote.' <br /> What is life?";
+}
+function myFunction2() {
+    document.getElementById("demo").innerHTML = "This is a paragraph. This is a sentence. She says, 'Now this is a quote.' <br /> What is death?";
+}
+
+function changeImage() {
+	if(document.getElementById("img").src=="http://img10.deviantart.net/829e/i/2008/110/e/6/tree_stock_by_crazykitty82stock.jpg")
+	{
+		document.getElementById("img").src="http://pre11.deviantart.net/6064/th/pre/f/2008/186/6/3/cherry_blossom_wallpaper_by_schrodingerscat19.jpg";
+	}
+    else
+	{
+		document.getElementById("img").src="http://img10.deviantart.net/829e/i/2008/110/e/6/tree_stock_by_crazykitty82stock.jpg"
+	}
+    }
+</script>
+
+</head>
+
+<body>
+    
+    <p id="demo"></p>
+    
+    <button type="button" onclick="myFunction1()">Set paragraph</button>
+    
+    <button type="button" onclick="myFunction2()">Change paragraph</button>
+    
+    <br /><br />
+    
+    <button type="button"
+    onclick="document.getElementById('demo2').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+    
+    <p id="demo2"></p>
+    
+    <br /><br />
+    
+    <img id="img" src="http://pre11.deviantart.net/6064/th/pre/f/2008/186/6/3/cherry_blossom_wallpaper_by_schrodingerscat19.jpg" alt="Cherry Blossom" style = "width:25%">
+    
+    <br />
+    
+    <button type="button" onclick="changeImage()">Change picture</button>
+
+</body>
+</html>

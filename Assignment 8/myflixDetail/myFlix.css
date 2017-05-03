@@ -1,0 +1,14 @@
+
+body {background-color: #3399CC; text-align:center}
+a:hover {color: #FFFFFF}
+a {color:#000066}
+.image{color:#000066; vertical-align:bottom; width:80px}
+.bold {font-weight:bold}
+.underline {text-decoration:underline}
+.italic {font-style:italic}
+table.browse { width:800px; border-width:1px}
+.browse td { padding:5px; border-spacing:5px; text-align:center; width:150px }
+table.details { width:400px; border:medium }
+.details td { text-align:center; }
+#title {color:#FFFF00 }
+#desc {text-align:left; }
